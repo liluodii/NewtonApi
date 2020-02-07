@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/host_fragment"
+    app:startDestination="@id/first_fragment">
+
+    <fragment
+        android:id="@+id/first_fragment"
+        android:name="com.example.newtonapi.first_fragment"
+        android:label="fragment_first_fragment"
+        tools:layout="@layout/quadratic" />
+    <fragment
+        android:id="@+id/second_fragment"
+        android:name="com.example.newtonapi.Second_fragment"
+        android:label="fragment_second_fragment"
+        tools:layout="@layout/geometric" />
+    <fragment
+        android:id="@+id/third_fragment"
+        android:name="com.example.newtonapi.Third_fragment"
+        android:label="fragment_third_fragment"
+        tools:layout="@layout/logarithmic" />
+</navigation>
