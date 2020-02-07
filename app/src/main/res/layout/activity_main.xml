@@ -4,108 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
     tools:context=".MainActivity"
+    android:id="@+id/drawer_layout"
+
     android:background="@drawable/newtonblu"
     >
 
 
-    <TextView
-        android:id="@+id/exprsn_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:text="EXPRESSION"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.166"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.467" />
 
-    <TextView
-        android:id="@+id/exprsn_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:text="          "
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.697"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.476" />
 
-    <TextView
-        android:id="@+id/result_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#FAFFFFFF"
-        android:text="RESULT"
-        android:textColor="#140D0D"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.138"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.582" />
 
-    <TextView
-        android:id="@+id/result_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:text="         "
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.7"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.589" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        android:textColor="#070303"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.762" />
-
-    <TextView
-        android:id="@+id/RES_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:text="RESULT"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="#F78B0F0F"
-        android:textSize="@android:dimen/app_icon_size"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.462"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.271" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="127dp"
-        android:layout_height="116dp"
-        app:srcCompat="@drawable/newton5"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="27dp" />
-
-=======
-    android:id="@+id/drawer_layout"
-    tools:context=".MainActivity">
 
     <LinearLayout
         android:orientation="vertical"
@@ -113,12 +21,7 @@
         android:layout_height="match_parent">
 
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@color/colorPrimary"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+        
 
         <fragment
             android:layout_width="match_parent"
@@ -139,6 +42,5 @@
         app:headerLayout="@layout/header_layout"
         app:menu="@menu/menu_layout"
         />
->>>>>>> 27b63489fc36b53afb6e97245b3522af84b7cf14
 
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -20,4 +20,9 @@
         android:name="com.example.newtonapi.Third_fragment"
         android:label="fragment_third_fragment"
         tools:layout="@layout/logarithmic" />
+    <fragment
+        android:id="@+id/result"
+        android:name="com.example.newtonapi.Result"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" />
 </navigation>
