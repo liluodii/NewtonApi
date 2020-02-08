@@ -10,8 +10,12 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.NavigationUI;
 
 import android.os.Bundle;
+
+import android.widget.EditText;
+
 import android.view.MenuItem;
 import android.widget.Toast;
+
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -37,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 //        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 //        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-        drawerLayout = findViewById(R.id.drawer_layout);
+        drawerLayout = findViewById(R.id.drawer_layout );
         navigationView = findViewById(R.id.navigationView);
 
         navController = Navigation.findNavController(this,R.id.hostFragment);

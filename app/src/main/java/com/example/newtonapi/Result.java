@@ -4,6 +4,7 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 
+<<<<<<< HEAD
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
@@ -19,6 +20,17 @@ public class Result extends Fragment {
 
     TextView expression;
     TextView result, operation;
+=======
+import androidx.fragment.app.Fragment;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+
+
+public class Result extends Fragment {
+>>>>>>> 1b275d76421200d4eb831716d3d8d5989a804b7b
 
     public Result() {
         // Required empty public constructor
@@ -27,6 +39,10 @@ public class Result extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1b275d76421200d4eb831716d3d8d5989a804b7b
     }
 
     @Override
@@ -36,6 +52,7 @@ public class Result extends Fragment {
         return inflater.inflate(R.layout.fragment_result, container, false);
     }
 
+<<<<<<< HEAD
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
@@ -53,4 +70,15 @@ public class Result extends Fragment {
         operation.setText(operationString);
 
     }
+=======
+
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+
+    }
+
+
+>>>>>>> 1b275d76421200d4eb831716d3d8d5989a804b7b
 }

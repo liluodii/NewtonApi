@@ -4,9 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".MainActivity"
     android:id="@+id/drawer_layout"
+<<<<<<< HEAD
     android:background="@drawable/newton110"
     tools:context=".MainActivity">
+=======
+
+    android:background="@drawable/newtonblu"
+    >
+
+
+
+
+
+>>>>>>> 1b275d76421200d4eb831716d3d8d5989a804b7b
 
     <LinearLayout
         android:orientation="vertical"
@@ -14,6 +26,11 @@
         android:layout_height="match_parent">
 
 
+<<<<<<< HEAD
+=======
+        
+
+>>>>>>> 1b275d76421200d4eb831716d3d8d5989a804b7b
         <fragment
             android:layout_width="match_parent"
             android:layout_height="match_parent"
