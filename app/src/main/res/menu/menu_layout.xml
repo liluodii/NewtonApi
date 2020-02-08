@@ -9,7 +9,7 @@
             />
 
         <item android:id="@+id/secondFragment"
-            android:title="Geometry"
+            android:title="Trigonometry"
             />
         <item android:id="@+id/thirdFragment"
             android:title="Logarithmic"

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/resultLayout"
+    android:background="@drawable/newton110"
+    tools:context=".Result">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/exprsn_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RES_1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="85dp"
+        android:background="#FFFFFF"
+        android:text="EXPRESSION"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/exprsn_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RES_1"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="88dp"
+        android:background="#FFFFFF"
+        android:text="         "
+        android:textColor="#140D0D"
+
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/result_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/exprsn_1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:background="#FAFFFFFF"
+        android:text="RESULT"
+        android:textColor="#140D0D"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/result_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/exprsn_2"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="103dp"
+        android:background="#FFFFFF"
+        android:text="        "
+        android:textColor="#140D0D"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/result_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:text=""
+        android:textColor="#140D0D"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/RES_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="#FFFFFF"
+        android:layout_marginLeft="125dp"
+        android:text="RESULT"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#F78B0F0F"
+        android:textSize="@android:dimen/app_icon_size" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        app:srcCompat="@drawable/newton5"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:layout_editor_absoluteX="136dp"-->
+<!--        tools:layout_editor_absoluteY="27dp" />-->
+
+</RelativeLayout>
